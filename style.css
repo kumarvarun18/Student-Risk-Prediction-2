@@ -1,0 +1,111 @@
+/*Global*/
+
+html, body, [class*="css"]{
+    font-family: Arial, sans-serif;
+}
+.main{
+    background-color:#F5F7FA;
+}
+
+/*Sidebar*/
+
+section[data-testid="stSidebar"]{
+    background-color:#1E3A8A;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+/*Headings*/
+
+h1{
+    color:#1E3A8A;
+    font-weight:bold;
+}
+
+h2,h3{
+    color:#2563EB;
+}
+
+
+/*Cards*/
+
+.custom-card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.15);
+    margin-bottom:20px;
+}
+
+/* Hero section*/
+.hero{
+    background:#2563EB;
+    color:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/*buttons*/
+
+.stButton>button{
+    width:100%;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+/*Metrics*/
+
+div[data-testid="metric-container"]{
+    background:white;
+    border-radius:12px;
+    padding:10px;
+    box-shadow:0px 2px 6px rgba(0,0,0,0.15);
+}
+
+/*Dataframe*/
+
+div[data-testid="stDataFrame"]{
+    border-radius:10px;
+}
+
+/*Sucess/info*/
+
+.stSuccess,
+.stInfo,
+.stWarning{
+    border-radius:10px;
+}
+
+/*footer*/
+
+.footer{
+    text-align:center;
+    color:gray;
+    margin-top:30px;
+    padding:10px;
+}
+/* Classes used by the Home page (were missing from the original CSS) */
+.workflow-card{
+    background:white;
+    color:#1E3A8A;
+    font-weight:bold;
+    padding:14px 18px;
+    border-radius:10px;
+    border-left:5px solid #2563EB;
+    box-shadow:0px 2px 6px rgba(0,0,0,0.15);
+    flex:1;
+    text-align:center;
+    min-width:120px;
+}
+
+.highlight-box{
+    background:#EAF1FF;
+    border-left:6px solid #2563EB;
+    padding:20px;
+    border-radius:12px;
+}
